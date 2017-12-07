@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842666C81FD59D2B00AEDE89 /* SingleNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842666C71FD59D2B00AEDE89 /* SingleNoteViewController.swift */; };
 		845D4D771FD5461400B0F17F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4D761FD5461400B0F17F /* AppDelegate.swift */; };
 		845D4D791FD5461400B0F17F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4D781FD5461400B0F17F /* ViewController.swift */; };
 		845D4D7C1FD5461400B0F17F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845D4D7A1FD5461400B0F17F /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		845D4D811FD5461400B0F17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845D4D7F1FD5461400B0F17F /* LaunchScreen.storyboard */; };
 		845D4D8C1FD5461400B0F17F /* Project_NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4D8B1FD5461400B0F17F /* Project_NoteTests.swift */; };
 		845D4D971FD5461400B0F17F /* Project_NoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4D961FD5461400B0F17F /* Project_NoteUITests.swift */; };
+		845D4DA51FD546F900B0F17F /* TakePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4DA41FD546F900B0F17F /* TakePictureViewController.swift */; };
+		845D4DA71FD58F3900B0F17F /* GetNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4DA61FD58F3900B0F17F /* GetNotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842666C71FD59D2B00AEDE89 /* SingleNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleNoteViewController.swift; sourceTree = "<group>"; };
 		845D4D731FD5461400B0F17F /* Project_Note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project_Note.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845D4D761FD5461400B0F17F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845D4D781FD5461400B0F17F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		845D4D921FD5461400B0F17F /* Project_NoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project_NoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845D4D961FD5461400B0F17F /* Project_NoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_NoteUITests.swift; sourceTree = "<group>"; };
 		845D4D981FD5461400B0F17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845D4DA41FD546F900B0F17F /* TakePictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePictureViewController.swift; sourceTree = "<group>"; };
+		845D4DA61FD58F3900B0F17F /* GetNotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetNotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				845D4D7D1FD5461400B0F17F /* Assets.xcassets */,
 				845D4D7F1FD5461400B0F17F /* LaunchScreen.storyboard */,
 				845D4D821FD5461400B0F17F /* Info.plist */,
+				845D4DA41FD546F900B0F17F /* TakePictureViewController.swift */,
+				845D4DA61FD58F3900B0F17F /* GetNotesViewController.swift */,
+				842666C71FD59D2B00AEDE89 /* SingleNoteViewController.swift */,
 			);
 			path = Project_Note;
 			sourceTree = "<group>";
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					845D4D721FD5461400B0F17F = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 87LHK923B8;
 						ProvisioningStyle = Automatic;
 					};
 					845D4D861FD5461400B0F17F = {
@@ -259,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845D4DA51FD546F900B0F17F /* TakePictureViewController.swift in Sources */,
 				845D4D791FD5461400B0F17F /* ViewController.swift in Sources */,
 				845D4D771FD5461400B0F17F /* AppDelegate.swift in Sources */,
+				842666C81FD59D2B00AEDE89 /* SingleNoteViewController.swift in Sources */,
+				845D4DA71FD58F3900B0F17F /* GetNotesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87LHK923B8;
 				INFOPLIST_FILE = Project_Note/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Quattro.Project-Note";
@@ -424,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87LHK923B8;
 				INFOPLIST_FILE = Project_Note/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Quattro.Project-Note";
@@ -505,6 +520,7 @@
 				845D4D9D1FD5461400B0F17F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845D4D9E1FD5461400B0F17F /* Build configuration list for PBXNativeTarget "Project_NoteTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +529,7 @@
 				845D4DA01FD5461400B0F17F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845D4DA11FD5461400B0F17F /* Build configuration list for PBXNativeTarget "Project_NoteUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +538,7 @@
 				845D4DA31FD5461400B0F17F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
